@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+!frontend/src/lib/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated Artifacts & Output
+runs/
+test_output/
+*.mp4
+*.mp3
+*.wav
+*.m4a
+render_props.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+yarn.lock
+dist/
+
+# Build outputs
+.next/
+.cache/
+
+# Testing
+.hypothesis/
+.pytest_cache/
+
+# Kiro
+.kiro/
+.kiro_analysis_notes.md
+
+# Semantic Asset Pipeline — large GCS-synced files, never committed to git
+# Populated at startup via scripts/fetch_assets.py (gsutil rsync from GCS)
+assets/undraw/
+assets/index.json
+
+# Iconify disk cache
+/tmp/iconify_cache/

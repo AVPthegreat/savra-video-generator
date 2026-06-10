@@ -1,0 +1,28 @@
+{
+  "name": "savra-video-generator-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Anant Vardhan Pandey <dkpandeycan1@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "render": "remotion render src/Root.tsx Whiteboard --props=./render_props.json out.mp4",
+    "preview": "remotion studio src/Root.tsx",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "^4.0.443",
+    "@remotion/transitions": "4.0.443",
+    "culori": "^4.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.443",
+    "remotion-bits": "^0.2.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.443",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.7.3"
+  }
+}

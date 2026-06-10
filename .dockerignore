@@ -1,0 +1,12 @@
+.git
+.github
+.env
+.venv
+node_modules
+__pycache__
+*.pyc
+.pytest_cache
+renderer/runs
+renderer/public/runs
+savra.db
+*.mp4
